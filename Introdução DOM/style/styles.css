@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.box {
+    min-width: 100%;
+    min-height: 80px;
+}
+
+.classeDaBox3 {
+    background-color: violet;
+    color: #fff;
+    padding: 20px;
+}

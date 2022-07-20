@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <style>
+        .cadastro {
+            font-family: Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            margin-top: 50px;
+        }
+
+        table {
+            min-width: 70%;
+        }
+
+        table, th, tr, td {
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #fafafa;
+        }
+
+        tr:hover {
+            background-color: #dceaff;
+        }
+
+        th, tr, td {
+            border-radius: 5 px;
+            padding: 10px;
+        }
+    </style>
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <form> 
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" />
+        <input type="email" name="email" id="email" placeholder="Digite seu e-mail" />
+        <input type="tel" name="phone" id="phone" placeholder="Digite seu contato" pattern="[0-9]{2}[0-9]{5}-[0-9]{4}"/>
+        <input type="submit" vale="Enviar">
+    </form>
+
+    <table class="cadastro">
+        <tr>
+            <th>Nome</th>
+            <th>E-mail</th>
+            <th>Telefone</th>
+        </tr>
+    </table>
+
+    <div id="atributo"></div>
+
+</body>
+</html>
