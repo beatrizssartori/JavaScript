@@ -1,3 +1,8 @@
+/* Módulo: Front-End II 
+Curso: Desenvolvedor Full Stack Jr.
+Mentor: Gabriel Lennon
+Aluna: Beatriz Sartori */
+
 //Herança
 import Aluno from './aluno.js';
 
