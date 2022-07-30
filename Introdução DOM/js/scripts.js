@@ -1,3 +1,8 @@
+/* Módulo: Front-End II 
+Curso: Desenvolvedor Full Stack Jr.
+Mentor: Eduardo Bertozi
+Aluna: Beatriz Sartori */
+
 const form = document.querySelector("form");
 
 form.addEventListener('submit', function(event) {
