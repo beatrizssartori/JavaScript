@@ -1,3 +1,8 @@
+/* Módulo: Front-End II 
+Curso: Desenvolvedor Full Stack Jr.
+Mentor: Eduardo Bertozi
+Aluna: Beatriz Sartori */
+
 export default class Aluno { //export default = essa classe pode ser usada por qualquer arquivo
     // Atributo privado
     #matricula
